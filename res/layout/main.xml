@@ -8,6 +8,14 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="Hello World, HelloWorld"
+    android:id="@+id/txt"
+    android:onClick="buttonClicked"
+    />
+<Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="buttonClicked"
+    android:text="send"
     />
 </LinearLayout>
 
